@@ -1,0 +1,92 @@
+:root{
+    --primary: #00f;
+    --secondary: #fff;
+
+    color: var(--secondary);
+}
+*{
+    color: var(--secondary);
+}
+body{
+    background-color: var(--primary);
+}
+
+.page-num{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+    width: 60px;
+}
+
+.page-num p{
+    margin: 5px;
+}
+
+/* Generic Classes*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Specific Classes*/
+
+/* #navbar{
+} */
+
+/* #navbar .left-nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 12px;
+
+    width: 40%;
+} */
+
+#navbar .left-nav-container{
+    width: 50px;
+}
+
+#navbar .hamburger-button{
+    background: none;
+    border: 0;
+}
+
+#navbar .hamburger-button img{
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger-button:hover{
+    cursor: pointer;
+}
+
+.hamburger-button:hover img{
+    background-color: #45f;
+}
+
+.page-nav{
+
+}
+
+.arrow-button{
+    background: none;
+    border: 0;
+}
+
+.arrow-button:hover{
+    cursor: pointer;
+}
+
+.arrow-button:hover img{
+    background-color: #45f;
+}
+
+.arrow-button img{
+    width: 50px;
+    height: 25px;
+}
